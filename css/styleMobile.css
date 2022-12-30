@@ -1,0 +1,129 @@
+@media screen and (max-width: 991px) {
+    .teamsIcons{
+        justify-content: space-between;
+        padding: 2%;
+        height: 80px;
+    }
+    .teamsIcons i{
+        display: block !important;
+        font-size: 32px;
+    }
+    .teamsIcons ul{
+        display: none;
+    }
+    .navContent{
+        justify-content: center !important;
+    }
+    .logotipo{
+        margin: 0 auto;
+    }
+}
+@media screen and (max-width: 768px) {
+    .teamsIcons{
+        justify-content: space-between;
+        padding: 2%;
+        height: 80px;
+    }
+    .teamsIcons i{
+        display: block !important;
+        font-size: 32px;
+    }
+    .teamsIcons ul{
+        display: none;
+    }
+    .navContent{
+        justify-content: center !important;
+    }
+    .logotipo{
+        margin: 0 auto;
+    }
+    .landingPage{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 400px;
+        padding: 0%;
+    }
+    .landingPage h1{
+        margin-top: 0;
+        font-size: 80px;
+        text-align: center;
+    }
+    .landingPage p{
+        text-align: center;
+    }
+    .cardNews{
+        width: 100%;
+    }
+    .cardNews p, .cardNews h3{
+        text-align: center;
+    }
+    .col-md-2{
+        display: none !important;
+    }
+    .hidden-xs{
+        display: none;
+    }
+    .locale{
+        height: 100%;
+        display: none;
+        align-items: center;
+        justify-content: center;
+    }
+    .mobile-locale{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+    }
+    .socialMedias{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+    .infoLocale{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        gap: 20px;
+    }
+    .infoLocaleContent{
+        display: flex;
+        align-items: center;
+        padding-left: 20px;
+        padding-right: 20px;
+        width: 180px;
+        height: 50px;
+        gap: 15px;
+        background-color: black;
+    }
+    .infoLocaleContent i{
+        font-size: 22px;
+        color: #666666;
+    }
+    .detailsFooter{
+        text-align: center;
+        flex-direction: column;
+        gap: 0;
+    }
+}
+@media screen and (max-width: 480px) {
+    .teamsIcons ul{
+        display: none;
+    }
+    .teamsIcons .bi{
+        display: block;
+        font-size: 26px;
+    }
+    .navContent{
+        justify-content: center !important;
+    }
+    .logotipo{
+        margin: 0 auto;
+    }
+    .hidden-xs{
+        display: none;
+    }
+}

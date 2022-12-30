@@ -4,61 +4,83 @@
     font-size: 1em;
     font-family: 'Open Sans', sans-serif;
 }
-
 nav{
-    position: absolute;
+    position: relative;
     z-index: 1;
     width: 100%;
 }
 .teamsIcons{
+    display: flex;
+    align-items: center;
     background-color: black;
     height: 40px;
 }
-.navegation{
+.teamsIcons ul{
+    list-style-type: none;
+}
+.teamsIcons i{
+    display: none;
+}
+.navContent{
+    width: 100%;
     background-color: rgba(94, 41, 154, .8);
     height: 150px;
-    min-height: fit-content;
     display: flex;
-    align-items: center;
-    justify-content: space-around;
-
+    padding: 0 5%;
 }
-.navegation img{
+.navbar{
+    padding: 0 !important;
+    position: absolute;
+}
+.navbar-brand{
+    position: relative;
+    margin: 0 !important;
+    padding: 0% !important;
+    bottom: 20px;
+}
+.navbar-brand img{
     width: 170px;
 }
-.navegation ul{
+.navbar-nav{
+    width: 100%;
+    display: flex;
+    justify-content: right;
+}
+.navbar-nav ul{
     list-style-type: none;
     display: flex;
+    justify-content: right;
     gap: 40px;
+    margin-right: 0% !important;
     margin-bottom: 0;
 }
-.navegation li{
+.navbar-nav li{
     display: flex;
     align-items: center;
 }
 
-.navegation a{
-    font-size: 20px;
+.nav-item a{
+    font-size: 20px !important;
     text-decoration: none;
-    color: white;
+    color: white !important;
     transition: 0.5s;
 }
-.navegation a:hover{
-    color: #fde192;
+.nav-item a:hover{
+    color: #fde192 !important;
 }
-.navegation .searchNav{
+.navbar-nav .searchNav{
     display: flex;
     align-items: center;
     background-color: #5c2d90;
     padding: 0 15px 0 15px;
 }
-.navegation .searchNav input{
+.navbar-nav .searchNav input{
     background-color: #5c2d90;
     border: 0;
     width: 250px;
     margin: 10px 0 10px 0;
 }
-.navegation .searchNav input::placeholder{
+.navbar-nav .searchNav input::placeholder{
     color: white;
     font-size: 20px;
 }
@@ -119,6 +141,10 @@ nav{
 .newsContent p{
     color: #a7a7a7;
 }
+.newsContent .item{
+    display: flex;
+    justify-content: center;
+}
 .cardNews{
     width: 300px;
 }
@@ -127,9 +153,10 @@ nav{
 }
 .data{
     width: 100%;
-    height: 220px;
+    height: fit-content;
     background-color: #5e2799;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
     padding-top: 8%;
@@ -170,6 +197,8 @@ nav{
 }
 .btns{
     display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
     margin-top: 40px;
     gap: 60px;
 }
@@ -193,6 +222,8 @@ footer{
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    width: 100%;
+    height: auto;
 }
 
 footer p{
@@ -203,23 +234,22 @@ footer .creator{
     color: #5c2d90;
 }
 .summaryFooter{
+    height: fit-content;
     padding: 2% 10% ;
     padding-bottom: 1%;
     width: 100%;
     background-color: #171f26;
     border-bottom: 2px solid #242d37;
 }
-.summaryFooter .row{
+
+.summaryFooter .col-md-2{
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
+    height: auto;
 }
 .summaryFooter .col-md-4{
-    height: 200px;
-}
-.summaryFooter img{
-    margin-left: 50px;
-    width: 70%;
+    height: auto;
 }
 
 .summaryFooter h3{
@@ -272,13 +302,22 @@ footer .creator{
     margin-bottom: 0;
 }
 .socialMedias{
+    width: 100%;
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
-.socialMedias svg{
-    padding: 1% !important;
+.socialMedias i{
+    padding: 2px 10px;
     border: 2px solid #666666;
     border-radius: 50%;
+    font-size: 30px;
+    color: #666666;
 }
+.mobile-locale{
+    display: none;
+}
+
 .detailsFooter{
     width: 100%;
     background-color: black;
@@ -288,4 +327,22 @@ footer .creator{
     align-items: center;
     justify-content: space-around;
     gap: 400px;
+}
+.videosSection{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.videosSection h2{
+    color: #5e299a !important;
+}
+.videosSection hr{
+    width: 300px;
+    border: 10px solid #fde192 !important;
+    opacity: 1;
+}
+
+.owl-carousel{
+    margin-top: 50px;
 }
