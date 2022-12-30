@@ -42,5 +42,4 @@ $(function(){
             video.pause();
         }
     });
-    const player = new Plyr('#player');
 });
