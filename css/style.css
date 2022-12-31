@@ -9,24 +9,49 @@ nav{
     z-index: 1;
     width: 100%;
 }
+#inputSearch{
+    display: none;
+}
+#menu-mobile{
+    display: none;
+}
+header{
+    position: static;
+    width: 100%;
+    height: 40px;
+}
+
 .teamsIcons{
+    position: relative;
+    width: 100%;
     display: flex;
     align-items: center;
     background-color: black;
     height: 40px;
+    z-index: 4;
 }
-.teamsIcons ul{
-    list-style-type: none;
-}
-.teamsIcons i{
+#btn-bars{
     display: none;
 }
+.teamsIcons ul{
+    width: 100%;
+    margin-bottom: 0%;
+    padding: 0 5%;
+    padding-left: 20%;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    list-style-type: none;
+}
+
 .navContent{
     width: 100%;
+    position: static;
     background-color: rgba(94, 41, 154, .8);
     height: 150px;
     display: flex;
     padding: 0 5%;
+    z-index: 6;
 }
 .navbar{
     padding: 0 !important;
@@ -34,9 +59,10 @@ nav{
 }
 .navbar-brand{
     position: relative;
+    bottom: 20px;
     margin: 0 !important;
     padding: 0% !important;
-    bottom: 20px;
+    z-index: 8;
 }
 .navbar-brand img{
     width: 170px;
@@ -86,12 +112,12 @@ nav{
 }
 
 .landingPage{
-    position: relative;
     background-image: url("../img/banner.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    height: 1000px;
+    position: static;
+    height: 1100px;
     display: flex;
     padding-left: 10%;
     text-shadow: 2px 2px 2px black;

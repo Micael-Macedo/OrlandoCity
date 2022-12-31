@@ -42,4 +42,13 @@ $(function(){
             video.pause();
         }
     });
+    $("#btn-bars .bi-list").on("click", function(){
+        $("header").toggleClass("open-menu");
+    });
+    $("#close-menu-mobile  .bi-x").on("click", function(){
+        $("header").removeClass("open-menu");
+    });
+    $("#btn-bars .bi-search").on("click", function(){
+        $("#inputSearch").toggleClass("open-search");
+    });
 });
