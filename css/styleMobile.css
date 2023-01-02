@@ -1,4 +1,77 @@
 @media screen and (max-width: 991px) {
+    header #menu-mobile{
+        display: flex;
+        position: fixed;
+        top: 80px;
+        left: -80%;
+        background-color: #fff;
+        width: 80%;
+        height: 100%;
+        transition: 0.3s;
+        z-index: 5;
+    }
+    header.open-menu #menu-mobile{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        left: 0;
+    }
+    header.open-menu #menu-mobile-mask{
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, .5);
+        z-index: 4;
+    }
+    header.open-menu #menu-mobile-logo{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+
+    }
+    header.open-menu #menu-mobile-logo img{
+        margin-top: 30px;
+        width: 130px;
+        height: 150px;
+    }
+    header .menu-mobile-links{
+        width: 100%;
+        padding: 0 20%;
+    }
+    header .menu-mobile-links ul{
+        text-align: center;
+        padding-left: 0%;
+        color: #633492;
+    }
+    header .menu-mobile-links a{
+        width: 100%;
+        text-decoration: none;
+        font-size: 26px;
+        font-weight: 700;
+        color: #633492;
+    }
+    header .menu-mobile-links li{
+        list-style-type: none;
+        margin-bottom: 20px;
+    }
+    header .open-search{
+        display: flex;
+    }
+    #close-menu-mobile{
+        bottom: 80px;
+        position: absolute;
+        height: 50px;
+        width: 100%;
+        background-color: #633492;
+        display: flex;
+        align-items: center;
+        color: white;
+    }
+    #close-menu-mobile button{
+        background-color: #633492;
+        border: none;
+        font-size: 30px;
+    }
     .teamsIcons{
         justify-content: space-between;
         padding: 0 2%;
@@ -22,6 +95,9 @@
     .navContent{
         justify-content: center !important;
     }
+    
+}
+@media screen and (max-width: 768px) {
     #inputSearch{
         transition: 1s;
     }
@@ -37,8 +113,6 @@
         border: none;
         transition: 0.5s;
     }
-}
-@media screen and (max-width: 768px) {
     header{
         height:80px;
     }
@@ -229,7 +303,7 @@
         display: flex;
         position: fixed;
         top: 80px;
-        left: -80%;
+        left: -90%;
         background-color: #fff;
         width: 80%;
         height: 100%;
@@ -281,7 +355,7 @@
         margin-bottom: 20px;
     }
     #close-menu-mobile{
-        bottom: 110px;
+        bottom: 80px;
         position: absolute;
         height: 50px;
         width: 100%;
