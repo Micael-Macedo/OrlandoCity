@@ -355,6 +355,7 @@ footer .creator{
     gap: 400px;
 }
 .videosSection{
+    margin-top: 200px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -368,7 +369,14 @@ footer .creator{
     border: 10px solid #fde192 !important;
     opacity: 1;
 }
-
+.videosContent{
+    display: flex;
+    flex-direction: column;
+}
+.videosContent p{
+    color: #171f26;
+    text-align: center;
+}
 .owl-carousel{
     margin-top: 50px;
 }
