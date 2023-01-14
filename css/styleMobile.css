@@ -95,6 +95,9 @@
     .navContent{
         justify-content: center !important;
     }
+    .box-discount{
+        flex-wrap: wrap;
+    }
     
 }
 @media screen and (max-width: 768px) {

@@ -380,3 +380,210 @@ footer .creator{
 .owl-carousel{
     margin-top: 50px;
 }
+.productSection{
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: center;
+}
+.imgProduct {
+    display: flex;
+    justify-content: end;
+}
+.imgProduct img{
+    width: 350px;
+}
+.infoProduct{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.infoProduct h2{
+    width: 500px;
+    font-size: 26px;
+    color: #666666 !important;
+    font-weight: 700;
+}
+.infoProduct h2, .infoProduct p{
+    color: #666666;
+}
+.infoProduct p{
+    font-size: 18px;
+}
+.payment{
+    width: 280px;
+    display: flex;
+}
+.boleto {
+    margin-top: 10px;
+}
+.boleto span{
+    font-size: 22px;
+    color: #5c2d90;
+    font-weight: 700;
+    margin-left: 20px;
+}
+.value{
+    display: flex;
+    font-weight: 700;
+
+}
+.value p{
+    margin:5px;
+    margin-top: 0;
+    color: #5c2d90;
+    font-size: 60px;
+}
+.value span{
+    color: #5c2d90;
+    font-size: 20px;
+    margin-top: 20px;
+}
+.btnBuyNow{
+    display: flex;
+    align-items: center;
+}
+.btnBuyNow i{
+    font-size: 30px;
+    color: #5c2d90;
+}
+.btnBuyNow button{
+    border: 0;
+    color: #5c2d90;
+    background-color: white;
+    font-size: 20px;
+    font-weight: 700;
+}
+.productSection button#btn-destaque-prev, .productSection button#btn-destaque-next{
+    background-color: transparent !important;
+    border: none;
+}
+.productSection button#btn-destaque-prev i, .productSection button#btn-destaque-next i{
+    color: #5c2d90;
+    font-size: 80px;
+}
+.productSection button#btn-destaque-prev i{
+    margin-left: 80px;
+}
+.productSection button#btn-destaque-next i{
+    margin-right: 80px;
+}
+#discountSection{
+    display: flex;
+    justify-content: center;
+    margin: 0 10%;
+    gap: 10px;
+}
+.discouts{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.box-discount{
+    width: 270px;
+    display: flex;
+    height: 150px;
+    background-color: #5c2d90;
+    padding: 1%;
+    flex-direction: column;
+    position: relative;
+    color: white;
+    position: relative;
+}
+.box-discount h3{
+    font-size: 20px !important;
+}
+.chooseDiscount{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.discountValue{
+    height: 150px;
+    vertical-align: top;
+    display: flex;
+    position: relative;
+    bottom: 50px;
+}
+.box-discount span{
+    font-size: 128px;
+}
+.box-discount h3, .chooseDiscount h3{
+    font-size: 18px;
+    margin-bottom: 0;
+}
+.porcent p, .off p{
+    text-align: center;
+    margin-bottom: 0;
+}
+.porcent{
+    top: 30px;
+    position: relative;
+    font-size: 64px;
+}
+.off{
+    font-weight: 300;
+    font-size: 48px;
+}
+
+.produtoDestaque{
+    width: 120% !important;
+    display: flex !important;
+    align-items: center;
+    justify-content: center !important;
+    margin-top: 200px;
+    color: #5c2d90 !important;
+}
+.produtoDestaque button{
+    background-color: transparent;
+    border: none;
+}
+.produtoDestaque button i{
+    color: #5c2d90;
+    font-size: 60px;
+}
+#osMaisUsadosSection{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 200px;
+}
+#osMaisUsadosSection h2{
+    color: #5c2d90;
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 0;
+}
+#osMaisUsadosSection hr{
+    border: #fcdb7e 4px solid;
+    opacity: 1;
+    width: 150px;
+}
+.product{
+    width: 350px;
+}
+.product img{
+    width: 100%;
+    height: 200px;
+}
+.product h3{
+    color: #666666;
+    font-size: 18px;
+    margin-bottom: 0;
+}
+.product .stars{
+    display: flex;
+}
+.product .stars img{
+    width: 30px;
+    height: 30px;
+}
+.product h4{
+    color: #5c2d90;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+.product p{
+    color: #666666;
+    margin-bottom: 0;
+}
